@@ -8,16 +8,17 @@ import RecentActivity from "./Component/AnalyticSection/RecentActivity";
 import SavingsGoals from "./Component/SavingPortfolioSection/SavingsGoals";
 import PortfolioTable from "./Component/SavingPortfolioSection/PortfolioTable";
 import PremiumCard from "./Component/PremiumPlanSection/PremiumCard";
+import Footer from "./Component/Footer/Footer";
 const App = () => {
   return (
     <div className="bg-light min-vh-100">
       <Navbar />
-      <div className="container py-5">
+      <div className="container pt-5">
         <div className="row g-4 mb-4">
           <FirstCardHero />
           <SecondCardHero />
         </div>
-        <div className="row g-4">
+        <div className="row g-4 pt-2">
           <ListCardsHero
             title="Total Income"
             amount="$8,240"
@@ -43,15 +44,16 @@ const App = () => {
             iconBg="#f3e5f5"
           />
         </div>
-        <div className="row g-4 mt-2">
+        <div className="row g-4 mt-3">
           <SpendingTrends />
           <RecentActivity />
         </div>
-        <div className="row g-4 mt-2 mb-5">
+        <div className="row g-4 mt-3 mb-5">
           <SavingsGoals />
           <PortfolioTable />
         </div>
-        <PremiumCard/>
+        <PremiumCard />
+        <Footer />
       </div>
     </div>
   );
