@@ -7,6 +7,7 @@ import SpendingTrends from "./Component/AnalyticSection/SpendingTrends";
 import RecentActivity from "./Component/AnalyticSection/RecentActivity";
 import SavingsGoals from "./Component/SavingPortfolioSection/SavingsGoals";
 import PortfolioTable from "./Component/SavingPortfolioSection/PortfolioTable";
+import PremiumCard from "./Component/PremiumPlanSection/PremiumCard";
 const App = () => {
   return (
     <div className="bg-light min-vh-100">
@@ -50,6 +51,7 @@ const App = () => {
           <SavingsGoals />
           <PortfolioTable />
         </div>
+        <PremiumCard/>
       </div>
     </div>
   );
