@@ -3,6 +3,8 @@ import Navbar from "./Component/Navbar/Navbar";
 import FirstCardHero from "./Component/HeroSection/FirstCardHero";
 import SecondCardHero from "./Component/HeroSection/SecondCardHero";
 import ListCardsHero from "./Component/HeroSection/ListCardsHero";
+import SpendingTrends from "./Component/AnalyticSection/SpendingTrends";
+import RecentActivity from "./Component/AnalyticSection/RecentActivity";
 const App = () => {
   return (
     <div className="bg-light min-vh-100">
@@ -37,6 +39,10 @@ const App = () => {
             icon="💼"
             iconBg="#f3e5f5"
           />
+        </div>
+        <div className="row g-4 mt-2">
+          <SpendingTrends />
+          <RecentActivity />
         </div>
       </div>
     </div>
