@@ -1,5 +1,3 @@
-import React from "react";
-
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm py-3">
@@ -37,7 +35,7 @@ const Navbar = () => {
                 <small className="me-2">Muhammad Ahmed</small>
                 <div
                   className="bg-primary rounded-circle shadow-sm"
-                 style={{ width: "32px", height: "32px" }}
+                  style={{ width: "32px", height: "32px" }}
                 ></div>
               </div>
             </li>
