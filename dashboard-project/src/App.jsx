@@ -5,6 +5,8 @@ import SecondCardHero from "./Component/HeroSection/SecondCardHero";
 import ListCardsHero from "./Component/HeroSection/ListCardsHero";
 import SpendingTrends from "./Component/AnalyticSection/SpendingTrends";
 import RecentActivity from "./Component/AnalyticSection/RecentActivity";
+import SavingsGoals from "./Component/SavingPortfolioSection/SavingsGoals";
+import PortfolioTable from "./Component/SavingPortfolioSection/PortfolioTable";
 const App = () => {
   return (
     <div className="bg-light min-vh-100">
@@ -43,6 +45,10 @@ const App = () => {
         <div className="row g-4 mt-2">
           <SpendingTrends />
           <RecentActivity />
+        </div>
+        <div className="row g-4 mt-2 mb-5">
+          <SavingsGoals />
+          <PortfolioTable />
         </div>
       </div>
     </div>
